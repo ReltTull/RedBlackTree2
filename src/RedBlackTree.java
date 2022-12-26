@@ -1,13 +1,6 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-
-/**
- * Класс реализующий красно-черное дерево на основе
- * интерфейса {@link IRedBlackTree}
- * @author simonenko
- * @version 2.0
- */
 public class RedBlackTree<T extends Comparable<T>> implements IRedBlackTree<T>, Iterable<T>, Iterator<T> {
 
     enum NodeColors {
